@@ -46,7 +46,7 @@ const SignUp = () => {
       <Header />
       <div className="min-h-screen flex items-center justify-center px-4">
       <div className="p-4 bg-[#f7f7f7] rounded-2xl pb-6">
-        <div className="w-full max-w-md bg-white p-6 rounded-2xl shadow-md w-[28em]">
+        <div className="max-w-md bg-white p-6 rounded-2xl shadow-md w-[28em]">
         <div className="flex items-center justify-center mb-4">
               <span className="w-10 h-10 rounded-full bg-[#f7f7f7] flex items-center justify-center">
                 <LogIn className="w-5 h-5 text-gray-700" />
