@@ -1,8 +1,17 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Feed from "./pages/Feed";
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
+
 function App() {
   return (
-    <div className="flex h-screen items-center justify-center bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">Hello from Atlys 👋</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Feed />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
