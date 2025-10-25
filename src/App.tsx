@@ -7,9 +7,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Feed />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/signup" element={<SignUp />} />
+        <Route path="/atlys/" element={<Feed />} />
+        <Route path="/atlys/signin" element={<SignIn />} />
+        <Route path="/atlys/signup" element={<SignUp />} />
       </Routes>
     </BrowserRouter>
   );
