@@ -56,7 +56,6 @@ const Feed = () => {
     };
 
     setPosts([newPost, ...posts]);
-    addToast('Post published successfully!', 'success');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 

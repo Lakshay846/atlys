@@ -27,7 +27,7 @@ export const PostCard = ({ post, onAuthRequired }: PostCardProps) => {
       onAuthRequired();
       return;
     }
-    addToast("Function not implemented yet");
+    addToast("feature not implemented yet");
   };
 
   return (
