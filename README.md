@@ -2,7 +2,7 @@ Atlys Foo-rum
 
 Mini Social media feed application where users can post with emojis  
 
-Tech Stack Used: # React + TypeScript + Vite
+Tech Stack Used: # React + TypeScript + Tailwind CSS + Vite
 
 Steps to run the project:
 
