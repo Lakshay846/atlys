@@ -61,7 +61,7 @@ export const AuthModal = ({ isOpen, onClose }: AuthModalProps) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 animate-fade-in">
       <div className="p-2 bg-[#f7f7f7] rounded-2xl pb-6 animate-scale-in">
-        <div className="bg-white rounded-lg w-[28em] max-w-md p-6 relative">
+        <div className="bg-white rounded-lg w-full sm:w-[28em] p-6 relative">
           <button
             onClick={handleClose}
             className="absolute top-3 right-3 text-gray-500 hover:text-gray-700"
