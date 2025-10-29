@@ -42,8 +42,14 @@ export const AuthModal = ({ isOpen, onClose }: AuthModalProps) => {
             return;
         }
         else {
-            signup(email, password);
-            addToast("Account created successfully!", "success");
+            const bool = signup(email, password);
+            if(bool) {
+              addToast("Account created successfully!", "success");
+            }
+            else {
+              addToast("Account already exists.", "error");
+              return;
+            }
         }
       }
 
